@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#0d47a1, #1976d2);
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: white;
+  color: #0d47a1;
+}
+
+.header ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.header li {
+  cursor: pointer;
+}
+
+.btn-contato {
+  background: #ffcc00;
+  padding: 5px 12px;
+  border-radius: 15px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.botoes button {
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #ffcc00;
+  cursor: pointer;
+}
+
+.pagina {
+  display: none;
+  background: white;
+  color: black;
+  padding: 30px;
+}
+
+.ativa {
+  display: block;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
